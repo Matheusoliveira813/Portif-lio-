@@ -44,7 +44,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
     
+}
+
+.apresentacao__lista{
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .apresentacao__conteudo {
@@ -59,14 +67,13 @@ body {
     flex-direction: column;
     gap: 40px;
     text-align: center;
+    text-decoration: none;
 }
 
 .apresentacao__fotos__fotos{
-    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -78,6 +85,12 @@ body {
 
 .titulo-destaque {
     color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__lista{
+    font-size: 18px;
+    font-family: var(--font-secundaria) ;
+    font-weight: 700;
 }
 
 .apresentacao__conteudo__texto{
@@ -130,4 +143,5 @@ body {
     font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
+    text-decoration: none;
 }
