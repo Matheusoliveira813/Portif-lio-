@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #ffffff;
-    --cor-terciaria: #f24f0e;
+    --cor-terciaria: #ff0000;
 
     --font-primaria: "Krona One", sans-serif;
     --font-secundaria: "Montserrat", sans-serif;
@@ -85,6 +85,7 @@ body {
 
 .titulo-destaque {
     color: var(--cor-terciaria);
+    text-decoration: none;
 }
 
 .apresentacao__conteudo__lista{
@@ -135,7 +136,8 @@ body {
     background-color: var(--cor-terciaria);
 }
 
-.rodape{
+.rodape {
+    text-decoration: none;
     color: var(--cor-primaria);   
     background-color: var(--cor-terciaria);
     padding: 24px;
@@ -143,5 +145,4 @@ body {
     font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
-    text-decoration: none;
 }
