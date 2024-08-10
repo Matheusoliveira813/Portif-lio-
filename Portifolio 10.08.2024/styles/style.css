@@ -136,6 +136,10 @@ body {
     background-color: var(--cor-terciaria);
 }
 
+.apresentacao__link__estrelha:hover {
+    background-color: #fdff94;
+}
+
 .rodape {
     text-decoration: none;
     color: var(--cor-primaria);   
